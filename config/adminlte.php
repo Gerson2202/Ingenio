@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Ingenio</b>TICS',
+    'logo' => '<b>Ingenio</b>TIC',
     'logo_img' => 'vendor/adminlte/dist/img/logo1.png',//logo del sidebar 
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -342,7 +342,7 @@ return [
             'text' => 'Modelos',
             'route' => 'modelosIndex',
             'icon' => 'far fa-fw fa-file',
-            'label' => 4,
+            'label' => 1,
             'label_color' => 'success',
         ],
         

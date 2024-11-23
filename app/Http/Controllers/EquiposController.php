@@ -84,6 +84,11 @@ class EquiposController extends Controller
     public function update(Request $request, string $id)
     {
         $equipo = Equipo::findOrFail($id);
+        $request->validate([
+            'modelo_id'=> 'required',
+            'mac'=> 'required|unique:equipos',
+            'estado'=> 'required',
+        ]);
         $equipo->update([
             'estado' => $request->input('estado'),
             'mac' => $request->input('mac'),

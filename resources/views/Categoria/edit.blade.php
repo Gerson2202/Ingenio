@@ -8,7 +8,7 @@
 @section('content')
 <br>
 <div class="card">
-    <div class="card-header"><h2>Modificar datos de proveedor</h1></div>
+    <div class="card-header"><h2>Modificar datos de categoria</h1></div>
     <div class="card-body">
         <div class="container mt-5">
             <div class="row">
